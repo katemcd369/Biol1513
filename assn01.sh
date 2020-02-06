@@ -29,4 +29,4 @@ $ cd watermelon_nt; grep -vB1 GAATTC *.fasta| grep -B1 GGATCC *.fasta
 $ cd example_files; cat shaver_et_al.csv | head -n1000 | tail -n501 >shaver500_1000.csv
 
 #assn01-7
-$ column fruit.txt | sort -k2r,2 -k3,3 fruit.txt  
+$ column -t fruit.txt | sort -k2r,2 -k3,3 fruit.txt  
