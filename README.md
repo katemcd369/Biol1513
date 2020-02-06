@@ -1,2 +1,1 @@
-# Biol5153
-assn01.txt = Homework 1
+assn01.sh = Homework 1
