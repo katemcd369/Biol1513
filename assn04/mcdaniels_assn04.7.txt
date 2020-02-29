@@ -1,0 +1,4 @@
+The raw score and size of the database does not seem to have a relationship. I would get the same raw score with a different size database, and i would get a different raw score when the database size was the same.
+The bitscore and the size of the datebase also does not seem to have a relationship. For most quiries I got the same bitscore no matter the size of the database.
+The e-value and the size of the database do not seen to be correlated either. The e-value changed based on the database used even if they were the same size.
+It is possible I did this exercize completely wrong because I got the same numbers for most of the queries.

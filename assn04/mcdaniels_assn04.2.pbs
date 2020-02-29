@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#PBS -N Blast
+#PBS -q tiny12core
+#PBS -j oe
+#PBS -m abe
+#PBS -M katemcd@uark.edu
+#PBS -o mcdaniels_assn04.2.out
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=00:00:10:00
+
+cd $PBS_O_WORKDIR
+
+module load blast/2.6.0+
+
+makeblastdb -in watermelon_genes -dbtype nucl
+
+blastn -query nad4L.fasta -db watermelon_genes -outfmt "6 qlen stitle slen score bitscore evalue frames"

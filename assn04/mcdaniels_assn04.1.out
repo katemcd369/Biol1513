@@ -1,0 +1,26 @@
+
+
+Building a new DB, current time: 02/28/2020 16:25:38
+New DB name:   /scrfs/storage/katemcd/watermelon_files/assn_04/nad4L.fasta
+New DB title:  nad4L.fasta
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /scrfs/storage/katemcd/watermelon_files/assn_04/nad4L.fasta
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.000348091 seconds.
+303	Citrullus_nad4L	303	303	560	0/0
+PBS Job Statistics:
+PBS Job ID: 4778972.sched
+Resource List: neednodes=1:ppn=12,nodes=1:ppn=12,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node:
+compute1144
+PBS Job Statistics:
+PBS Job ID: 4778972.sched
+Resource List: neednodes=1:ppn=12,nodes=1:ppn=12,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:00
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node: compute1144

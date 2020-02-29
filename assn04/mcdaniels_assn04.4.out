@@ -1,0 +1,48 @@
+
+
+Building a new DB, current time: 02/28/2020 17:23:31
+New DB name:   /scrfs/storage/katemcd/watermelon_files/assn_04/mt.fasta
+New DB title:  mt.fasta
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /scrfs/storage/katemcd/watermelon_files/assn_04/mt.fasta
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 23 sequences in 0.172206 seconds.
+303	Citrullus	379236	303	560	5.50e-160	16476941/2
+303	Vitis	773279	297	549	1.19e-156	16476941/2
+303	Ricinus	502773	292	540	7.17e-154	16476941/2
+303	Cucurbita	982833	288	532	1.20e-151	16476941/2
+303	Brassica	221853	286	529	1.55e-150	16476941/2
+303	Solanum	487585	283	523	7.22e-149	16476941/2
+303	Nicotiana	430597	283	523	7.22e-149	16476941/2
+303	Carica	476890	282	521	2.60e-148	16476941/2
+303	Arabidopsis	366924	280	518	3.36e-147	16476941/2
+303	Tripsacum	704100	261	483	1.23e-136	16476941/2
+303	Sorghum	468628	261	483	1.23e-136	16476941/2
+303	Oryza_japonica	491515	261	483	1.23e-136	16476941/2
+303	Oryza_indica	491515	261	483	1.23e-136	16476941/2
+303	Beta_CMS	501020	261	483	1.23e-136	16476941/2
+303	Beta	368801	261	483	1.23e-136	16476941/2
+303	Zea_perennis	570354	258	477	5.70e-135	16476941/2
+303	Zea_mays_mays	569630	258	477	5.70e-135	16476941/2
+303	Zea_luxurians	539368	258	477	5.70e-135	16476941/2
+303	Triticum	452528	258	477	5.70e-135	16476941/2
+303	Silene_latifolia	253413	258	477	5.70e-135	16476941/2
+303	bambusa_oldhamii	509941	258	477	5.70e-135	16476941/2
+303	bambusa_oldhamii	509941	82	152	3.92e-37	16476941/2
+303	Zea_mays_parviglumis	680603	255	472	2.65e-133	16476941/2
+PBS Job Statistics:
+PBS Job ID: 4778991.sched
+Resource List: neednodes=1:ppn=12,nodes=1:ppn=12,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node:
+compute1144
+PBS Job Statistics:
+PBS Job ID: 4778991.sched
+Resource List: neednodes=1:ppn=12,nodes=1:ppn=12,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node: compute1144

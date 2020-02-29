@@ -1,0 +1,26 @@
+
+
+Building a new DB, current time: 02/28/2020 17:17:07
+New DB name:   /scrfs/storage/katemcd/watermelon_files/assn_04/watermelon.fsa
+New DB title:  watermelon.fsa
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /scrfs/storage/katemcd/watermelon_files/assn_04/watermelon.fsa
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00682616 seconds.
+303	watermelon [organism=Citrullus lanatus] [common=watermelon] [cultivar=Florida giant] [molecule=DNA] [location=mitochondrion] [topology=circular] Citrullus lanatus mitochondrion, complete genome	379236	303	560	1.82e-161	16476941/2
+PBS Job Statistics:
+PBS Job ID: 4778989.sched
+Resource List: neednodes=1:ppn=12,nodes=1:ppn=12,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node:
+compute1144
+PBS Job Statistics:
+PBS Job ID: 4778989.sched
+Resource List: neednodes=1:ppn=12,nodes=1:ppn=12,walltime=00:10:00
+Resources Used: cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:01
+Queue Name: tiny12core
+Program Return Code: 0
+Head Node: compute1144
