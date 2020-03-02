@@ -13,4 +13,4 @@ cd $PBS_O_WORKDIR
 
 module load blast/2.6.0+
 
-tblastx -query nad4L.fasta -db watermelon.fsa -outfmt "6 qlen stitle slen score bitscore evalue frames"
+tblastx -query nad4L.fasta -db watermelon.fsa

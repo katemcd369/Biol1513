@@ -15,4 +15,4 @@ module load blast/2.6.0+
 
 makeblastdb -in nad4L.fasta -dbtype nucl
 
-blastn -query nad4L.fasta -db nad4L.fasta -outfmt 6
+blastn -query nad4L.fasta -db nad4L.fasta

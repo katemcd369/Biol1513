@@ -15,4 +15,4 @@ module load blast/2.6.0+
 
 makeblastdb -in watermelon.fsa -dbtype nucl
 
-blastn -query nad4L.fasta -db watermelon.fsa -outfmt "6 qlen stitle slen score bitscore evalue frames"
+blastn -query nad4L.fasta -db watermelon.fsa
