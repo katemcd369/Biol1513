@@ -13,12 +13,13 @@ parser.add_argument('fasta', help= "The name of the fasta file you wish to use",
 
 #parse the arguments
 args = parser.parse_args()
-#define files
-gff_file = 'watermelon.gff'
-fasta_file = 'watermelon.fsa'
+
+#open fasta file
+fasta = open(args.fasta, 'r')
+
 #open and parse the gff file, and define the list
 with open(args.gff, 'r') as gff:
-    gene_names = []
+    genes = []
     reader = csv.reader(gff, delimiter= '\t')
     for line in reader:
         if not line:
@@ -28,15 +29,12 @@ with open(args.gff, 'r') as gff:
             if (line[2] != 'misc_feature' and line[2] != 'repeat_region'):
                #pull out gene name and add it to the list
                 parse = line[8].split(' ')
-                gene_names.append(parse[1])
+                genes.append(parse[1] + " " + line[3] + " " + line[4])
 
 #print the gene games in alphabetical order
-for gene in sorted(gene_names):
+for gene in sorted(genes):
     print(gene)
 
-gff.close
-
-#open and close the fasta file
-with open(args.fasta, 'r')as fasta:
-    
-    fasta.close
+#close both files
+gff.close()
+fasta.close()
